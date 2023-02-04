@@ -19,6 +19,7 @@ const menuOptions: MenuOption[] = [
 console.log('Load', location.pathname);
 new Header('#root');
 new Menu('.header__menu', menuOptions);
+
 if (location.pathname === '/home') {
   new Tasks('main', new TaskApiRepo());
 }
