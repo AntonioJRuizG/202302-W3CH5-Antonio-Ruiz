@@ -15,7 +15,7 @@ export class Menu extends Component {
       .map((item) => `<li><a href="${item.path}">${item.label}</a></li>`)
       .join('\n');
     return `
-    <nav class="menu"><ul>${items}</ul></nav>
+    <nav class="header__menu__nav"><ul>${items}</ul></nav>
     `;
   }
 }

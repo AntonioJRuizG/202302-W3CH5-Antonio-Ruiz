@@ -12,14 +12,13 @@ export type MenuOption = {
 };
 
 const menuOptions: MenuOption[] = [
-  { label: 'Inicio', path: '/home' },
-  { label: 'Tares', path: '/tasks' },
-  { label: 'Acerca de', path: '/about.html' },
+  { label: 'Todos los Pokemon', path: '/home' },
+  { label: 'Mi Pokedex', path: '/favs' },
 ];
 
 console.log('Load', location.pathname);
 new Header('#root');
-new Menu('.header', menuOptions);
+new Menu('.header__menu', menuOptions);
 if (location.pathname === '/home') {
   new Tasks('main', new TaskApiRepo());
 }
