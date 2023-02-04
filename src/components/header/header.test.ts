@@ -7,7 +7,7 @@ describe('Given Header component', () => {
     document.body.innerHTML = '<slot></slot>';
     const element = new Header('slot');
     expect(element).toBeInstanceOf(Header);
-    const nav = screen.getByRole('nav');
-    expect(nav).toBeInTheDocument();
+    const img = screen.getByRole('img');
+    expect(img).toBeInTheDocument();
   });
 });
