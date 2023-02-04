@@ -12,7 +12,7 @@ export class Footer extends Component {
   createTemplate() {
     return `
     <footer class="footer">
-      <address>ISDI Coders</address>
+      <address>Pokemon Web</address>
     </footer>`;
   }
 }

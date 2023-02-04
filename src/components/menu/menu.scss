@@ -1,5 +1,4 @@
-.menu {
-  position: absolute;
+.header__menu__nav {
   top: 1rem;
   right: 1rem;
   ul {
@@ -14,6 +13,8 @@
   }
   a {
     text-decoration: none;
-    color: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: blue;
   }
 }

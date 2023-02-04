@@ -1,7 +1,14 @@
 .header {
-  background-color: brown;
-  color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
   position: relative;
   padding: 1rem;
   min-height: 20vh;
+
+  &__logo {
+    padding: 1rem;
+  }
 }
